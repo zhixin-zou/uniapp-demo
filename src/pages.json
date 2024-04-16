@@ -1,27 +1,21 @@
 {
+	"easycom": {
+		"autoscan": true, //是否自动扫描组件
+		"custom": { //自定义扫描规则
+			"^uni-(.*)": "@/components/uni-$1.vue"
+		}
+	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
 			}
 		},
 		{
-			"path": "pages/my",
+			"path": "pages/analysis/analysis",
 			"style": {
-				"navigationBarTitleText": "my"
-			}
-		},
-		{
-			"path": "pages/my/my",
-			"style": {
-				"navigationBarTitleText": "my"
-			}
-		},
-		{
-			"path": "pages/my/my",
-			"style": {
-				"navigationBarTitleText": "my"
+				"navigationBarTitleText": "analysis"
 			}
 		},
 		{
@@ -31,6 +25,29 @@
 			}
 		}
 	],
+	"tabBar": {
+		"selectedColor": "#00aaff",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon_g46zegjsj1e/shouye-zhihui.png",
+				"selectedIconPath": "static/icon_g46zegjsj1e/shouye-zhihui-copy-copy.png"
+			},
+			{
+				"pagePath": "pages/analysis/analysis",
+				"text": "分析",
+				"iconPath": "static/icon_g46zegjsj1e/shouye-zhihui.png",
+				"selectedIconPath": "static/icon_g46zegjsj1e/shouye-zhihui-copy-copy.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/icon_g46zegjsj1e/gerenzhongxin-zhihui.png",
+				"selectedIconPath": "static/icon_g46zegjsj1e/gerenzhongxin-zhihui-copy.png"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
