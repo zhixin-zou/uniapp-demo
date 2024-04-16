@@ -54,6 +54,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4000820240401001",
     "@dcloudio/uni-mp-xhs": "3.0.0-4000820240401001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-4000820240401001",
+    "@dcloudio/uni-ui": "^1.5.5",
     "vue": "^3.3.11",
     "vue-i18n": "^9.1.9"
   },
@@ -64,6 +65,8 @@
     "@dcloudio/uni-stacktracey": "3.0.0-4000820240401001",
     "@dcloudio/vite-plugin-uni": "3.0.0-4000820240401001",
     "@vue/runtime-core": "^3.3.11",
+    "sass": "^1.75.0",
+    "sass-loader": "^10.1.1",
     "vite": "4.3.5"
   }
 }
